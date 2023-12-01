@@ -12,10 +12,10 @@ using Tyuiu.SbrodovSV.Sprint6.Task0.V20.Lib;
 
 namespace Tyuiu.SbrodovSV.Sprint6.Task0.V20
 {
-    public partial class FormMain : Form
+    public partial class FormMain_SSV : Form
     {
         DataService dataService = new DataService();
-        public FormMain()
+        public FormMain_SSV()
         {
             InitializeComponent();
         }
@@ -33,7 +33,7 @@ namespace Tyuiu.SbrodovSV.Sprint6.Task0.V20
         {
             try
             {
-                textBoxResult.Text = Convert.ToString(dataService.Calculate(int.Parse(textBoxInVarA.Text)));
+                textBoxResult__SSV.Text = Convert.ToString(dataService.Calculate(int.Parse(textBoxInVarA__SSV.Text)));
             }
             catch
             {

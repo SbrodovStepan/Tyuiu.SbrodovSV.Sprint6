@@ -17,7 +17,7 @@ namespace Tyuiu.SbrodovSV.Sprint6.Task0.V20
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMain());
+            Application.Run(new FormMain_SSV());
         }
     }
 }
