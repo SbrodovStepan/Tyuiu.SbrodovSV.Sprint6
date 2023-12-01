@@ -12,10 +12,10 @@ using Tyuiu.SbrodovSV.Sprint6.Task0.V20.Lib;
 
 namespace Tyuiu.SbrodovSV.Sprint6.Task0.V20
 {
-    public partial class FormMain_SSV : Form
+    public partial class FormMain : Form
     {
         DataService dataService = new DataService();
-        public FormMain_SSV()
+        public FormMain()
         {
             InitializeComponent();
         }

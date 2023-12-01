@@ -1,6 +1,6 @@
 ﻿namespace Tyuiu.SbrodovSV.Sprint6.Task0.V20
 {
-    partial class FormMain_SSV
+    partial class FormMain
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -28,34 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain_SSV));
-            this.groupBoxTask__SSV = new System.Windows.Forms.GroupBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
+            this.groupBoxTask = new System.Windows.Forms.GroupBox();
             this.textBoxTask__SSV = new System.Windows.Forms.TextBox();
-            this.groupBoxVarIn__SSV = new System.Windows.Forms.GroupBox();
-            this.labelVarA__SSV = new System.Windows.Forms.Label();
+            this.groupBoxVarIn = new System.Windows.Forms.GroupBox();
+            this.labelVarA = new System.Windows.Forms.Label();
             this.textBoxInVarA__SSV = new System.Windows.Forms.TextBox();
-            this.groupBoxVarOut__SSV = new System.Windows.Forms.GroupBox();
-            this.labelRes__SSV = new System.Windows.Forms.Label();
+            this.groupBoxVarOut = new System.Windows.Forms.GroupBox();
+            this.labelRes = new System.Windows.Forms.Label();
             this.textBoxResult__SSV = new System.Windows.Forms.TextBox();
             this.buttonDone__SSV = new System.Windows.Forms.Button();
             this.buttonHelp__SSV = new System.Windows.Forms.Button();
-            this.pictureBoxFormula__SSV = new System.Windows.Forms.PictureBox();
-            this.groupBoxTask__SSV.SuspendLayout();
-            this.groupBoxVarIn__SSV.SuspendLayout();
-            this.groupBoxVarOut__SSV.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula__SSV)).BeginInit();
+            this.pictureBoxFormula_ = new System.Windows.Forms.PictureBox();
+            this.groupBoxTask.SuspendLayout();
+            this.groupBoxVarIn.SuspendLayout();
+            this.groupBoxVarOut.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula_)).BeginInit();
             this.SuspendLayout();
             // 
-            // groupBoxTask__SSV
+            // groupBoxTask
             // 
-            this.groupBoxTask__SSV.Controls.Add(this.pictureBoxFormula__SSV);
-            this.groupBoxTask__SSV.Controls.Add(this.textBoxTask__SSV);
-            this.groupBoxTask__SSV.Location = new System.Drawing.Point(12, 21);
-            this.groupBoxTask__SSV.Name = "groupBoxTask__SSV";
-            this.groupBoxTask__SSV.Size = new System.Drawing.Size(455, 158);
-            this.groupBoxTask__SSV.TabIndex = 0;
-            this.groupBoxTask__SSV.TabStop = false;
-            this.groupBoxTask__SSV.Text = "Условие";
+            this.groupBoxTask.Controls.Add(this.pictureBoxFormula_);
+            this.groupBoxTask.Controls.Add(this.textBoxTask__SSV);
+            this.groupBoxTask.Location = new System.Drawing.Point(12, 21);
+            this.groupBoxTask.Name = "groupBoxTask";
+            this.groupBoxTask.Size = new System.Drawing.Size(455, 158);
+            this.groupBoxTask.TabIndex = 0;
+            this.groupBoxTask.TabStop = false;
+            this.groupBoxTask.Text = "Условие";
             // 
             // textBoxTask__SSV
             // 
@@ -72,25 +72,25 @@
             this.textBoxTask__SSV.TabStop = false;
             this.textBoxTask__SSV.Text = "Вычислить значение по формуле";
             // 
-            // groupBoxVarIn__SSV
+            // groupBoxVarIn
             // 
-            this.groupBoxVarIn__SSV.Controls.Add(this.labelVarA__SSV);
-            this.groupBoxVarIn__SSV.Controls.Add(this.textBoxInVarA__SSV);
-            this.groupBoxVarIn__SSV.Location = new System.Drawing.Point(18, 185);
-            this.groupBoxVarIn__SSV.Name = "groupBoxVarIn__SSV";
-            this.groupBoxVarIn__SSV.Size = new System.Drawing.Size(289, 92);
-            this.groupBoxVarIn__SSV.TabIndex = 1;
-            this.groupBoxVarIn__SSV.TabStop = false;
-            this.groupBoxVarIn__SSV.Text = "Ввод данных";
+            this.groupBoxVarIn.Controls.Add(this.labelVarA);
+            this.groupBoxVarIn.Controls.Add(this.textBoxInVarA__SSV);
+            this.groupBoxVarIn.Location = new System.Drawing.Point(18, 185);
+            this.groupBoxVarIn.Name = "groupBoxVarIn";
+            this.groupBoxVarIn.Size = new System.Drawing.Size(289, 92);
+            this.groupBoxVarIn.TabIndex = 1;
+            this.groupBoxVarIn.TabStop = false;
+            this.groupBoxVarIn.Text = "Ввод данных";
             // 
-            // labelVarA__SSV
+            // labelVarA
             // 
-            this.labelVarA__SSV.AutoSize = true;
-            this.labelVarA__SSV.Location = new System.Drawing.Point(6, 29);
-            this.labelVarA__SSV.Name = "labelVarA__SSV";
-            this.labelVarA__SSV.Size = new System.Drawing.Size(84, 13);
-            this.labelVarA__SSV.TabIndex = 1;
-            this.labelVarA__SSV.Text = "Переменная A:";
+            this.labelVarA.AutoSize = true;
+            this.labelVarA.Location = new System.Drawing.Point(6, 29);
+            this.labelVarA.Name = "labelVarA";
+            this.labelVarA.Size = new System.Drawing.Size(84, 13);
+            this.labelVarA.TabIndex = 1;
+            this.labelVarA.Text = "Переменная A:";
             // 
             // textBoxInVarA__SSV
             // 
@@ -103,25 +103,25 @@
             this.textBoxInVarA__SSV.Tag = "";
             this.textBoxInVarA__SSV.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxInVarA_KeyPress);
             // 
-            // groupBoxVarOut__SSV
+            // groupBoxVarOut
             // 
-            this.groupBoxVarOut__SSV.Controls.Add(this.labelRes__SSV);
-            this.groupBoxVarOut__SSV.Controls.Add(this.textBoxResult__SSV);
-            this.groupBoxVarOut__SSV.Location = new System.Drawing.Point(313, 185);
-            this.groupBoxVarOut__SSV.Name = "groupBoxVarOut__SSV";
-            this.groupBoxVarOut__SSV.Size = new System.Drawing.Size(154, 92);
-            this.groupBoxVarOut__SSV.TabIndex = 1;
-            this.groupBoxVarOut__SSV.TabStop = false;
-            this.groupBoxVarOut__SSV.Text = "Вывод данных";
+            this.groupBoxVarOut.Controls.Add(this.labelRes);
+            this.groupBoxVarOut.Controls.Add(this.textBoxResult__SSV);
+            this.groupBoxVarOut.Location = new System.Drawing.Point(313, 185);
+            this.groupBoxVarOut.Name = "groupBoxVarOut";
+            this.groupBoxVarOut.Size = new System.Drawing.Size(154, 92);
+            this.groupBoxVarOut.TabIndex = 1;
+            this.groupBoxVarOut.TabStop = false;
+            this.groupBoxVarOut.Text = "Вывод данных";
             // 
-            // labelRes__SSV
+            // labelRes
             // 
-            this.labelRes__SSV.AutoSize = true;
-            this.labelRes__SSV.Location = new System.Drawing.Point(6, 29);
-            this.labelRes__SSV.Name = "labelRes__SSV";
-            this.labelRes__SSV.Size = new System.Drawing.Size(62, 13);
-            this.labelRes__SSV.TabIndex = 1;
-            this.labelRes__SSV.Text = "Результат:";
+            this.labelRes.AutoSize = true;
+            this.labelRes.Location = new System.Drawing.Point(6, 29);
+            this.labelRes.Name = "labelRes";
+            this.labelRes.Size = new System.Drawing.Size(62, 13);
+            this.labelRes.TabIndex = 1;
+            this.labelRes.Text = "Результат:";
             // 
             // textBoxResult__SSV
             // 
@@ -153,55 +153,55 @@
             this.buttonHelp__SSV.UseVisualStyleBackColor = true;
             this.buttonHelp__SSV.Click += new System.EventHandler(this.buttonHelp_Click);
             // 
-            // pictureBoxFormula__SSV
+            // pictureBoxFormula_
             // 
-            this.pictureBoxFormula__SSV.BackColor = System.Drawing.SystemColors.Control;
-            this.pictureBoxFormula__SSV.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxFormula__SSV.Image")));
-            this.pictureBoxFormula__SSV.Location = new System.Drawing.Point(307, 19);
-            this.pictureBoxFormula__SSV.Name = "pictureBoxFormula__SSV";
-            this.pictureBoxFormula__SSV.Size = new System.Drawing.Size(141, 61);
-            this.pictureBoxFormula__SSV.TabIndex = 1;
-            this.pictureBoxFormula__SSV.TabStop = false;
+            this.pictureBoxFormula_.BackColor = System.Drawing.SystemColors.Control;
+            this.pictureBoxFormula_.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxFormula_.Image")));
+            this.pictureBoxFormula_.Location = new System.Drawing.Point(307, 19);
+            this.pictureBoxFormula_.Name = "pictureBoxFormula_";
+            this.pictureBoxFormula_.Size = new System.Drawing.Size(141, 61);
+            this.pictureBoxFormula_.TabIndex = 1;
+            this.pictureBoxFormula_.TabStop = false;
             // 
-            // FormMain_SSV
+            // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(481, 324);
             this.Controls.Add(this.buttonHelp__SSV);
             this.Controls.Add(this.buttonDone__SSV);
-            this.Controls.Add(this.groupBoxVarOut__SSV);
-            this.Controls.Add(this.groupBoxVarIn__SSV);
-            this.Controls.Add(this.groupBoxTask__SSV);
+            this.Controls.Add(this.groupBoxVarOut);
+            this.Controls.Add(this.groupBoxVarIn);
+            this.Controls.Add(this.groupBoxTask);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.Name = "FormMain_SSV";
+            this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 0 | Вариант 20 | Сбродов С. В";
-            this.groupBoxTask__SSV.ResumeLayout(false);
-            this.groupBoxTask__SSV.PerformLayout();
-            this.groupBoxVarIn__SSV.ResumeLayout(false);
-            this.groupBoxVarIn__SSV.PerformLayout();
-            this.groupBoxVarOut__SSV.ResumeLayout(false);
-            this.groupBoxVarOut__SSV.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula__SSV)).EndInit();
+            this.groupBoxTask.ResumeLayout(false);
+            this.groupBoxTask.PerformLayout();
+            this.groupBoxVarIn.ResumeLayout(false);
+            this.groupBoxVarIn.PerformLayout();
+            this.groupBoxVarOut.ResumeLayout(false);
+            this.groupBoxVarOut.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula_)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBoxTask__SSV;
+        private System.Windows.Forms.GroupBox groupBoxTask;
         private System.Windows.Forms.TextBox textBoxTask__SSV;
-        private System.Windows.Forms.GroupBox groupBoxVarIn__SSV;
-        private System.Windows.Forms.GroupBox groupBoxVarOut__SSV;
+        private System.Windows.Forms.GroupBox groupBoxVarIn;
+        private System.Windows.Forms.GroupBox groupBoxVarOut;
         private System.Windows.Forms.TextBox textBoxInVarA__SSV;
-        private System.Windows.Forms.Label labelVarA__SSV;
+        private System.Windows.Forms.Label labelVarA;
         private System.Windows.Forms.TextBox textBoxResult__SSV;
-        private System.Windows.Forms.Label labelRes__SSV;
+        private System.Windows.Forms.Label labelRes;
         private System.Windows.Forms.Button buttonDone__SSV;
         private System.Windows.Forms.Button buttonHelp__SSV;
-        private System.Windows.Forms.PictureBox pictureBoxFormula__SSV;
+        private System.Windows.Forms.PictureBox pictureBoxFormula_;
     }
 }
 
