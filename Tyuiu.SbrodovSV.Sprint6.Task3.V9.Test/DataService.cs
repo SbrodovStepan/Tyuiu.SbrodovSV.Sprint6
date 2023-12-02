@@ -10,6 +10,7 @@ namespace Tyuiu.SbrodovSV.Sprint6.Task3.V9.Test
         [TestMethod]
         public void TestMethod1()
         {
+
         }
     }
 }
