@@ -11,7 +11,17 @@ namespace Tyuiu.SbrodovSV.Sprint6.Task3.V9.Lib
     {
         public int[,] Calculate(int[,] matrix)
         {
-            throw new NotImplementedException();
+            int[] temp = new int[5];
+            for (int i = 0; i < 5; i++)
+            {
+                temp[i] = matrix[i,4];
+            }
+            Array.Sort(temp);
+            for (int i = 0; i < 5; i++)
+            {
+                matrix[i,4] = temp[i];
+            }
+            return matrix;
         }
     }
 }
