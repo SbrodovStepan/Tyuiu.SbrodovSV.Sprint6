@@ -35,6 +35,7 @@
             this.groupBoxResult_SSV = new System.Windows.Forms.GroupBox();
             this.textBoxResult_SSV = new System.Windows.Forms.TextBox();
             this.groupBoxTask_SSV = new System.Windows.Forms.GroupBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBoxInput_SSV = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -44,7 +45,6 @@
             this.buttonSave_SSV = new System.Windows.Forms.Button();
             this.buttonHelp_SSV = new System.Windows.Forms.Button();
             this.chartFunction_SSV = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -89,6 +89,19 @@
             this.groupBoxTask_SSV.TabIndex = 1;
             this.groupBoxTask_SSV.TabStop = false;
             this.groupBoxTask_SSV.Text = "Условие:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox1.Location = new System.Drawing.Point(3, 16);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(430, 43);
+            this.textBox1.TabIndex = 0;
+            this.textBox1.Text = "Протабулировать функцию f(x) а заданном диапозоне от -5 до 5.\r\nРезультат вывести " +
+    "в textBox. Построить график функции и сохранить в файл\r\nOutPutTask4V20.txt по на" +
+    "жатию кнопки.\r\n\r\n";
             // 
             // groupBoxInput_SSV
             // 
@@ -195,18 +208,6 @@
             title1.Name = "Title1";
             title1.Text = "График функции f(x)";
             this.chartFunction_SSV.Titles.Add(title1);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Location = new System.Drawing.Point(3, 16);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(430, 43);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "Протабулировать функцию f(x) а заданном диапозоне от -5 до 5.\r\nРезультат вывести " +
-    "в textBox. Построить график функции и сохранить в файл\r\nOutPutTask4V20.txt по на" +
-    "жатию кнопки.\r\n\r\n";
             // 
             // panel1
             // 
