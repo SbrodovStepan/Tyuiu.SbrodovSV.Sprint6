@@ -190,6 +190,7 @@
             // 
             // buttonDone_SSV
             // 
+            this.buttonDone_SSV.Enabled = false;
             this.buttonDone_SSV.Image = global::Tyuiu.SbrodovSV.Sprint6.Task6.V22.Properties.Resources.page_white_go;
             this.buttonDone_SSV.Location = new System.Drawing.Point(84, 3);
             this.buttonDone_SSV.Name = "buttonDone_SSV";
