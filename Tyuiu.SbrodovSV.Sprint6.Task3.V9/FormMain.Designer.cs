@@ -30,16 +30,16 @@
         {
             this.groupBoxResult = new System.Windows.Forms.GroupBox();
             this.labelResult = new System.Windows.Forms.Label();
+            this.dataGridViewResult = new System.Windows.Forms.DataGridView();
             this.groupBoxData = new System.Windows.Forms.GroupBox();
             this.textBoxdData_SSV = new System.Windows.Forms.TextBox();
             this.dataGridViewMatrix = new System.Windows.Forms.DataGridView();
             this.buttonDone_SSV = new System.Windows.Forms.Button();
             this.buttonHelp_SSV = new System.Windows.Forms.Button();
-            this.dataGridViewResult = new System.Windows.Forms.DataGridView();
             this.groupBoxResult.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResult)).BeginInit();
             this.groupBoxData.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMatrix)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResult)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBoxResult
@@ -61,6 +61,16 @@
             this.labelResult.Size = new System.Drawing.Size(62, 13);
             this.labelResult.TabIndex = 1;
             this.labelResult.Text = "Результат:";
+            // 
+            // dataGridViewResult
+            // 
+            this.dataGridViewResult.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewResult.ColumnHeadersVisible = false;
+            this.dataGridViewResult.Location = new System.Drawing.Point(9, 32);
+            this.dataGridViewResult.Name = "dataGridViewResult";
+            this.dataGridViewResult.RowHeadersVisible = false;
+            this.dataGridViewResult.Size = new System.Drawing.Size(151, 147);
+            this.dataGridViewResult.TabIndex = 0;
             // 
             // groupBoxData
             // 
@@ -116,16 +126,6 @@
             this.buttonHelp_SSV.UseVisualStyleBackColor = true;
             this.buttonHelp_SSV.Click += new System.EventHandler(this.buttonHelp_SSV_Click);
             // 
-            // dataGridViewResult
-            // 
-            this.dataGridViewResult.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewResult.ColumnHeadersVisible = false;
-            this.dataGridViewResult.Location = new System.Drawing.Point(9, 32);
-            this.dataGridViewResult.Name = "dataGridViewResult";
-            this.dataGridViewResult.RowHeadersVisible = false;
-            this.dataGridViewResult.Size = new System.Drawing.Size(151, 147);
-            this.dataGridViewResult.TabIndex = 0;
-            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -143,10 +143,10 @@
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.groupBoxResult.ResumeLayout(false);
             this.groupBoxResult.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResult)).EndInit();
             this.groupBoxData.ResumeLayout(false);
             this.groupBoxData.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMatrix)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResult)).EndInit();
             this.ResumeLayout(false);
 
         }

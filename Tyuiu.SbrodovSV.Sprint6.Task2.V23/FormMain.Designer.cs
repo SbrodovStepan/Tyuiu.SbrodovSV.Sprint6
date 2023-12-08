@@ -28,11 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.buttonDone_SSV = new System.Windows.Forms.Button();
             this.groupBoxTask = new System.Windows.Forms.GroupBox();
+            this.textBoxTask = new System.Windows.Forms.TextBox();
             this.GroupBoxInput = new System.Windows.Forms.GroupBox();
             this.labelStartStep = new System.Windows.Forms.Label();
             this.labelStopStep = new System.Windows.Forms.Label();
@@ -44,7 +45,6 @@
             this.Y = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.chartFunction = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.buttonHelp_SSV = new System.Windows.Forms.Button();
-            this.textBoxTask = new System.Windows.Forms.TextBox();
             this.groupBoxTask.SuspendLayout();
             this.GroupBoxInput.SuspendLayout();
             this.groupBoxResult.SuspendLayout();
@@ -76,6 +76,17 @@
             this.groupBoxTask.TabIndex = 15;
             this.groupBoxTask.TabStop = false;
             this.groupBoxTask.Text = "Условие";
+            // 
+            // textBoxTask
+            // 
+            this.textBoxTask.Location = new System.Drawing.Point(7, 20);
+            this.textBoxTask.Multiline = true;
+            this.textBoxTask.Name = "textBoxTask";
+            this.textBoxTask.ReadOnly = true;
+            this.textBoxTask.Size = new System.Drawing.Size(442, 206);
+            this.textBoxTask.TabIndex = 0;
+            this.textBoxTask.Text = "Протабулировать функцию F(x) в заданном диапозоне\r\nРезультат вывести в DataGridVi" +
+    "ew и построить график функции\r\n\r\n";
             // 
             // GroupBoxInput
             // 
@@ -161,18 +172,18 @@
             // 
             // chartFunction
             // 
-            chartArea7.Name = "ChartArea1";
-            this.chartFunction.ChartAreas.Add(chartArea7);
-            legend7.Name = "Legend1";
-            this.chartFunction.Legends.Add(legend7);
+            chartArea4.Name = "ChartArea1";
+            this.chartFunction.ChartAreas.Add(chartArea4);
+            legend4.Name = "Legend1";
+            this.chartFunction.Legends.Add(legend4);
             this.chartFunction.Location = new System.Drawing.Point(137, 35);
             this.chartFunction.Name = "chartFunction";
-            series7.ChartArea = "ChartArea1";
-            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series7.IsVisibleInLegend = false;
-            series7.Legend = "Legend1";
-            series7.Name = "Series1";
-            this.chartFunction.Series.Add(series7);
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series4.IsVisibleInLegend = false;
+            series4.Legend = "Legend1";
+            series4.Name = "Series1";
+            this.chartFunction.Series.Add(series4);
             this.chartFunction.Size = new System.Drawing.Size(401, 252);
             this.chartFunction.TabIndex = 6;
             this.chartFunction.Text = "chart1";
@@ -187,17 +198,6 @@
             this.buttonHelp_SSV.Text = "Справка";
             this.buttonHelp_SSV.UseVisualStyleBackColor = false;
             this.buttonHelp_SSV.Click += new System.EventHandler(this.buttonHelp_SSV_Click);
-            // 
-            // textBoxTask
-            // 
-            this.textBoxTask.Location = new System.Drawing.Point(7, 20);
-            this.textBoxTask.Multiline = true;
-            this.textBoxTask.Name = "textBoxTask";
-            this.textBoxTask.ReadOnly = true;
-            this.textBoxTask.Size = new System.Drawing.Size(442, 206);
-            this.textBoxTask.TabIndex = 0;
-            this.textBoxTask.Text = "Протабулировать функцию F(x) в заданном диапозоне\r\nРезультат вывести в DataGridVi" +
-    "ew и построить график функции\r\n\r\n";
             // 
             // FormMain
             // 
